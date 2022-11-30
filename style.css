@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    margin-top:50px;
+    text-align:center;
+    background: linear-gradient(450deg, rgb(20, 21, 19), rgb(155, 193, 229));
+    color: rgb(213, 213, 213);
+}
+#show th, #show td{
+    padding: 13px;   
+}
+
+table{
+    border-radius: 5px;
+}
+td{
+    padding: 1rem
+}
+th,td{
+    
+    border-bottom: 1px solid rgb(8, 32, 50);
+}
+
+input[type="button" i] {
+    background: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    font-weight:bolder ;
+    transition: all .3s ease;
+}
+input[type="button" i]:hover{
+    background: black;
+    color: white;
+}
+input[type="text" i],input[type="number" i]{
+    border-radius: 5px;
+    border: none;
+    transition: all .3s ease;
+
+}
+input[type="text" i],input[type="number" i]:focus{
+    outline: none;
+    
+}
+input[type="text" i]:hover,input[type="number" i]:hover{
+    box-shadow: 0px 5px 10px rgb(255, 255, 255),0px -5px 10px rgb(10, 10, 10) ;
+
+}
+
+.side{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px; 
+}
+.left{
+    left: 0;
+    background-color: #ffffff;
+}
+.right{
+    right: 0;
+    background-color: #030211;
+}
+#show > tbody > tr {
+    margin: 20px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+h1
+{
+    color: #030211;
+}
+  
+h2
+{
+    color: rgb(255, 255, 255);
+}
+  
